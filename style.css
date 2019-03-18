@@ -50,12 +50,14 @@ body {
    background-size: cover;
    background-attachment: fixed;
    margin: 0;
-
+   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+   font-style: normal;
+   font-synthesis: none;
+   font-weight: normal;
 }
 
 
 p {
-  font-family: "Noto Sans", sans-serif;
   color: white;
   padding: 20px 20px 0px 0;
   /* padding-left: 20em;
@@ -86,8 +88,7 @@ h1 {
 
   /* DESKTOP VIEW */
 padding-top: 15%;
-font-size: 7em;
-font-family: "impact", Times, sans-serif;
+font-size: 5em;
 text-align: center;
 }
 
@@ -166,11 +167,11 @@ li.p {
      font-family: arial;
      font-size: 20px;
      position: relative;
-     left: 20%;
+     margin-left: 10vw;
+     width: 75vw;
      margin-top: 4em;
      border: 3px solid white;
      background-color: #6E6E6E;
-     width: 60%;
      padding-left: 2em;
      padding-right: 2em;
 }
@@ -186,6 +187,13 @@ img {
 @media (max-width: 850px) {
   img{
     width: 60%;
+  }
+  .box{
+    width: 99%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;  
   }
 }
 
