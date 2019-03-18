@@ -9,6 +9,13 @@ ul.nav {
   top: 0;
   width: 100%;
   z-index: 1;
+
+}
+
+ @media (max-width: 850px) {
+   ul.nav {
+     position: relative;
+ }
 }
 li.nav {
   float: left;
@@ -159,7 +166,7 @@ li.p {
      font-family: arial;
      font-size: 20px;
      position: relative;
-     left: 15%;
+     left: 20%;
      margin-top: 4em;
      border: 3px solid white;
      background-color: #6E6E6E;
