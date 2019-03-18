@@ -76,16 +76,22 @@ p {
 }
 
 h1 {
+
+  /* DESKTOP VIEW */
 padding-top: 15%;
 font-size: 7em;
 font-family: "impact", Times, sans-serif;
-color: white;
 text-align: center;
-
-color: white;
 }
 
 
+
+/* MOBILE VIEW */
+@media (max-width: 850px) {
+  h1{
+   font-size: 2em;
+ }
+}
 
 h2 {
 
@@ -257,7 +263,7 @@ footer{
 /* mobile video */
  @media (max-width: 850px) {
   .VideoBox{
-    height: 20em;
+    height: 25em;
   }
   video {
    height: 15em;
