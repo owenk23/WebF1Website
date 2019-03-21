@@ -19,7 +19,7 @@ ul.nav {
 }
 li.nav {
   float: left;
-  font-family: "impact", fantasy, sans-serif;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-stretch: ultra-expanded;
 }
 
@@ -193,7 +193,7 @@ img {
     left: 0;
     right: 0;
     padding: 0;
-    margin: 0;  
+    margin: 0;
   }
 }
 
